@@ -1,0 +1,11 @@
+# Exclude log
+*.log
+
+# Exclude node modules
+node_modules/
+
+# Exclude tsc generated files
+*.js
+
+# Include gulpfile
+!gulpfile.js

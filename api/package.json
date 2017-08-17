@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-typescript-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Ali Ismael",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.0.24",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.1",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.4.2"
+  }
+}
