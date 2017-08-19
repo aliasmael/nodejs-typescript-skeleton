@@ -1,4 +1,4 @@
-import {config} from './config/config';
+import { config } from './config/config'
 
 // Import modules routes
 import {testRouter} from './modules/test/routes/TestRouter';
@@ -6,6 +6,10 @@ import {categoryRouter} from './modules/category/routes/CategoryRouter';
 
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser')
+
+// parse application/json
+app.use(bodyParser.json())
 
 // use test routes under /api/test
 app.use('/api/test', testRouter);
