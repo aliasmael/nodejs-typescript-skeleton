@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^8.0.24",
+    "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.2.1",
