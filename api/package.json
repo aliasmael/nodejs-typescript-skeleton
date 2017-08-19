@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "nodemon main.js"
   },
   "author": "Ali Ismael",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "express": "^4.15.4",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.2.1",
+    "mongodb": "^2.2.31",
     "nodemon": "^1.11.0",
     "typescript": "^2.4.2"
   }
